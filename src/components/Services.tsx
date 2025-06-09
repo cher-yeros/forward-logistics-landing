@@ -1,22 +1,23 @@
 "use client";
 
-import GLightbox from "glightbox";
 import "glightbox/dist/css/glightbox.min.css";
 import { useEffect } from "react";
 
 export default function Services() {
   useEffect(() => {
-    const lightbox = GLightbox({
-      selector: ".glightbox",
-      touchNavigation: true,
-      loop: true,
-      autoplayVideos: true,
-    });
+    // Dynamically import glightbox only in the browser
+    import("glightbox").then(({ default: GLightbox }) => {
+      const lightbox = GLightbox({
+        selector: ".glightbox",
+        touchNavigation: true,
+        loop: true,
+        autoplayVideos: true,
+      });
 
-    // Clean up on component unmount
-    return () => {
-      lightbox.destroy();
-    };
+      return () => {
+        lightbox.destroy();
+      };
+    });
   }, []);
 
   return (
