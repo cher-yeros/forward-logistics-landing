@@ -17,7 +17,7 @@ export default function PrivacyPolicy() {
     <section id="privacy" className="privacy section">
       <div
         className="page-title dark-background"
-        style={{ backgroundImage: "url(assets/img/logistics/showcase-1.webp)" }}
+        style={{ backgroundImage: "url(assets/img/education/showcase-1.webp)" }}
       >
         <div className="container position-relative">
           <h1>Privacy Policy</h1>

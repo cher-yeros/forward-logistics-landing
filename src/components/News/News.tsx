@@ -18,7 +18,7 @@ export default function News() {
     <section id="recent-news" className="recent-news section">
       <div
         className="page-title dark-background"
-        style={{ backgroundImage: "url(assets/img/logistics/showcase-1.webp)" }}
+        style={{ backgroundImage: "url(assets/img/education/showcase-1.webp)" }}
       >
         <div className="container position-relative">
           <h1>News & Blogs</h1>

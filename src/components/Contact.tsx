@@ -1,6 +1,12 @@
 export default function Contact() {
   return (
-    <section className="section">
+    <section className="section section-hero dark-background">
+      <img
+        className="hero-img"
+        src="https://bootstrapmade.com/content/demo/Logis/assets/img/cta-bg.jpg"
+        alt=""
+      />
+
       <div className="container section-title" data-aos="fade-up">
         <h2>Contact Us </h2>
         <p>Connect with Forward Logistics Ethiopia</p>
@@ -54,7 +60,12 @@ export default function Contact() {
         </div>
 
         {/* <!-- Google Maps (Full Width) --> */}
-        <div className="map-section" data-aos="fade-up" data-aos-delay="200">
+        <div
+          className="map-section"
+          data-aos="fade-up"
+          data-aos-delay="200"
+          style={{ zIndex: 3 }}
+        >
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d245.34081127108686!2d38.77499848622668!3d8.986230977521757!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b850062bbd22b%3A0xd03de81007558f18!2sForward%20Logistics%20Ethiopia%20PLC!5e1!3m2!1sen!2set!4v1748675460509!5m2!1sen!2set"
             width="100%"

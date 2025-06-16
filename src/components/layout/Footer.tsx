@@ -2,7 +2,11 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer id="footer" className="footer position-relative dark-background">
+    <footer
+      id="footer"
+      className="footer position-relative dark-background section-hero"
+      style={{ backgroundImage: "url(assets/img/education/showcase-1.webp)" }}
+    >
       <div className="container footer-top">
         <div className="row gy-4">
           {/* About Section */}

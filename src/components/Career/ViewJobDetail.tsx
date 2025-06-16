@@ -17,7 +17,7 @@ export default function ViewJobDetail() {
     <section id="#about" className="section about">
       <div
         className="page-title dark-background"
-        style={{ backgroundImage: "url(assets/img/logistics/showcase-1.webp)" }}
+        style={{ backgroundImage: "url(assets/img/education/showcase-1.webp)" }}
       >
         <div className="container position-relative">
           <h1>Frontend Developer</h1>

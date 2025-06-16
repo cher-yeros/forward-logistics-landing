@@ -1,0 +1,45 @@
+.about-hero-section {
+  /* background-image: url("/assets/img/education/students-2.webp"); */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* for parallax feel */
+  padding: 100px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-hero-section .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6); /* dark overlay */
+  z-index: 1;
+}
+
+.about-hero-section .highlight {
+  color: #ffd700; /* example highlight color */
+}
+
+.about-hero-section .container {
+  position: relative;
+  z-index: 2;
+}
+
+.stat-box {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  min-width: 120px;
+}
+
+.stat-number {
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: block;
+  color: #fff;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  color: #ddd;
+}

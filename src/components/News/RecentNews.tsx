@@ -6,7 +6,7 @@ export default function RecentNews() {
     <section id="recent-news" className="recent-news section">
       {/* <!-- Section Title --> */}
       <div className="container section-title" data-aos="fade-up">
-        <h2>Recent News</h2>
+        <h2>Recent News & Blogs</h2>
         <p>
           Stay updated with the latest developments, innovations, and success
           stories from Forward Logistics.

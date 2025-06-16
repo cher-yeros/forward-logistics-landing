@@ -18,7 +18,7 @@ export default function MobileAppsPage() {
       {/* <!-- Page Title --> */}
       <section
         className="page-title dark-background"
-        style={{ backgroundImage: "url(assets/img/logistics/showcase-1.webp)" }}
+        style={{ backgroundImage: "url(assets/img/education/showcase-1.webp)" }}
       >
         <div className="container position-relative">
           <h1>Our Mobile Apps</h1>
@@ -36,7 +36,10 @@ export default function MobileAppsPage() {
           </nav>
         </div>
       </section>{" "}
-      <section id="work-process" className="work-process section">
+      <section
+        id="work-process"
+        className="work-process section gray-background"
+      >
         {/* <!-- Section Title --> */}
 
         {/* <!-- End Section Title --> */}

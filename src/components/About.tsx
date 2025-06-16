@@ -2,11 +2,17 @@ import React from "react";
 
 export default function About() {
   return (
-    <section id="about" className="about section">
+    <section id="about" className="about section section-hero dark-background">
       {/* <div className="container section-title" data-aos="fade-up">
         <h2>About </h2>
         <p>About Forward Logistics Ethiopia</p>
       </div> */}
+
+      <img
+        className="hero-img"
+        src="https://bootstrapmade.com/content/demo/Logis/assets/img/features-1.jpg"
+        alt=""
+      />
       <div className="container" data-aos="fade-up" data-aos-delay="100">
         <div className="row mb-5">
           <div
@@ -79,29 +85,6 @@ export default function About() {
 
           <div className="col-lg-6" data-aos="fade-left" data-aos-delay="300">
             <div className="image-stack">
-              {/* <div
-                className="image-stack-item image-stack-item-top"
-                data-aos="zoom-in"
-                data-aos-delay="400"
-              >
-                <img
-                  src="assets/img/logistics/fleet.webp"
-                  alt="Fleet"
-                  className="img-fluid rounded-4 shadow-lg"
-                />
-              </div>
-              <div
-                className="image-stack-item image-stack-item-bottom"
-                data-aos="zoom-in"
-                data-aos-delay="500"
-              >
-                <img
-                  src="assets/img/logistics/drivers.webp"
-                  alt="Drivers"
-                  className="img-fluid rounded-4 shadow-lg"
-                />
-              </div> */}
-
               <div
                 className="image-stack-item image-stack-item-top"
                 data-aos="zoom-in"

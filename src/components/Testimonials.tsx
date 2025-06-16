@@ -45,7 +45,16 @@ export default function Testimonials() {
   ];
 
   return (
-    <section id="testimonials" className="testimonials section">
+    <section
+      id="testimonials"
+      className="testimonials section dark-background section-hero"
+    >
+      <img
+        className="hero-img"
+        src="https://res.cloudinary.com/di1hpum4d/image/upload/v1750068776/forward/fp6s1s8bv9htf9qd71ev.jpg"
+        alt=""
+      />
+
       {/* <!-- Section Title --> */}
       <div className="container section-title" data-aos="fade-up">
         <h2>Testimonials</h2>

@@ -2,6 +2,7 @@
 
 import React, { useEffect } from "react";
 import AOS from "aos";
+import { Typewriter } from "react-simple-typewriter";
 
 export default function Hero() {
   useEffect(() => {
@@ -28,7 +29,28 @@ export default function Hero() {
             <div className="col-lg-7" data-aos="zoom-out" data-aos-delay="100">
               <div className="hero-content">
                 <h1>
-                  Transport your shipment with a fast and reliable Platform
+                  {/* Transport your shipment with a fast and reliable Platform */}
+                  <Typewriter
+                    words={[
+                      "Transport your shipment with a fast and reliable Platform",
+                      // "Transport your shipment",
+                      // "with a",
+                      // "fast and reliable Platform",
+                      // "a",
+                      // "fast",
+                      // "and",
+                      // "reliable",
+                      // "Platform",
+                    ]}
+                    loop={5}
+                    cursor
+                    cursorStyle="_"
+                    typeSpeed={50}
+                    deleteSpeed={50}
+                    delaySpeed={1000}
+                    // onLoopDone={handleDone}
+                    // onType={handleType}
+                  />
                 </h1>
                 <p>
                   Download our application and handle your shipment dispatch to

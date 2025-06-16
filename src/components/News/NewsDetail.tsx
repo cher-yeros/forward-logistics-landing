@@ -6,7 +6,7 @@ export default function NewsDetail() {
       <div
         className="page-title dark-background"
         style={{
-          backgroundImage: "url(/assets/img/logistics/showcase-1.webp)",
+          backgroundImage: "url(/assets/img/education/showcase-1.webp)",
         }}
       >
         <div className="container position-relative">

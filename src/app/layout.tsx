@@ -7,6 +7,7 @@ import "aos/dist/aos.css";
 import "@/assets/css/fontawesome.css";
 import "@/assets/css/gallery.css";
 import "@/assets/css/style.css";
+import "@/assets/css/section-hero.css";
 
 import BackToTop from "@/components/BackToTop";
 import Footer from "@/components/layout/Footer";

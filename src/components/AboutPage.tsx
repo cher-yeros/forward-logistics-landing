@@ -18,7 +18,7 @@ export default function AboutPage() {
       {/* <!-- Page Title --> */}
       <div
         className="page-title dark-background"
-        style={{ backgroundImage: "url(assets/img/logistics/showcase-1.webp)" }}
+        style={{ backgroundImage: "url(assets/img/education/showcase-1.webp)" }}
       >
         <div className="container position-relative">
           <h1>About Us</h1>
@@ -38,11 +38,10 @@ export default function AboutPage() {
         </div>
       </div>
 
-      <section id="about" className="about section">
-        {/* <div className="container section-title" data-aos="fade-up">
-        <h2>About </h2>
-        <p>About Forward Logistics Ethiopia</p>
-      </div> */}
+      <section
+        id="about"
+        className="about section gray-background section-hero "
+      >
         <div className="container" data-aos="fade-up" data-aos-delay="100">
           <div className="row mb-5">
             <div
@@ -210,7 +209,16 @@ export default function AboutPage() {
       </section>
 
       {/* <!-- History Section --> */}
-      <section id="history" className="history section">
+      <section
+        id="history"
+        className="history section dark-background section-hero"
+      >
+        <img
+          className="hero-img"
+          src="https://bootstrapmade.com/content/demo/Logis/assets/img/features-1.jpg"
+          alt=""
+        />
+
         <div className="container" data-aos="fade-up" data-aos-delay="100">
           <div className="row align-items-center g-5">
             <div className="col-lg-6">

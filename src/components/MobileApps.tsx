@@ -2,7 +2,18 @@ import React from "react";
 
 export default function MobileApps() {
   return (
-    <section id="work-process" className="work-process section">
+    <section
+      id="work-process"
+      className="work-process section call-to-action gray-background"
+      // style={{
+      //   backgroundImage: 'url("/assets/img/education/students-2.webp")',
+      // }}
+    >
+      {/* <img
+        className="hero-img"
+        src="https://bootstrapmade.com/content/demo/Logis/assets/img/cta-bg.jpg"
+        alt=""
+      /> */}
       {/* <!-- Section Title --> */}
       <div className="container section-title " data-aos="fade-up">
         <h2>Forward Mobile Applications</h2>

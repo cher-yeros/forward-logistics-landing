@@ -16,7 +16,7 @@ export default function TermsOfUse() {
     <section id="terms-of-service" className="terms-of-service section">
       <div
         className="page-title dark-background"
-        style={{ backgroundImage: "url(assets/img/logistics/showcase-1.webp)" }}
+        style={{ backgroundImage: "url(assets/img/education/showcase-1.webp)" }}
       >
         <div className="container position-relative">
           <h1>Terms of Use</h1>

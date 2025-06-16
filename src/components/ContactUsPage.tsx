@@ -17,7 +17,7 @@ export default function ContactUsPage() {
       {/* <!-- Page Title --> */}
       <section
         className="page-title dark-background"
-        style={{ backgroundImage: "url(assets/img/logistics/showcase-1.webp)" }}
+        style={{ backgroundImage: "url(assets/img/education/showcase-1.webp)" }}
       >
         <div className="container position-relative">
           <h1>Contact Us</h1>
@@ -35,7 +35,7 @@ export default function ContactUsPage() {
           </nav>
         </div>
       </section>{" "}
-      <section className="section">
+      <section className="section gray-background">
         <section id="contact" className="contact section">
           <div className="container" data-aos="fade-up" data-aos-delay="100">
             {/* <!-- Contact Info Boxes --> */}
