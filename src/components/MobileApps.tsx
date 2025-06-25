@@ -31,7 +31,7 @@ export default function MobileApps() {
             <div className="steps-item">
               <div className="steps-image">
                 <img
-                  src="assets/img/apps/app1.webp"
+                  src="/assets/img/about/consigner.jpg"
                   alt="Forward Consignor"
                   className="img-fluid"
                   loading="lazy"
@@ -79,7 +79,7 @@ export default function MobileApps() {
             <div className="steps-item">
               <div className="steps-image">
                 <img
-                  src="assets/img/apps/app1.webp"
+                  src="/assets/img/about/driver.jpg"
                   alt="Forward Driver"
                   className="img-fluid"
                   loading="lazy"
@@ -125,7 +125,7 @@ export default function MobileApps() {
             <div className="steps-item">
               <div className="steps-image">
                 <img
-                  src="assets/img/apps/app1.webp"
+                  src="/assets/img/about/transporter.jpg"
                   alt="Forward Transporter"
                   className="img-fluid"
                   loading="lazy"
